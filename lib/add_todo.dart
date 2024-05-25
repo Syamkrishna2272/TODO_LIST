@@ -16,21 +16,21 @@ class _AddTodoListState extends State<AddTodoList> {
     return Scaffold(
         backgroundColor: Colors.black,
         appBar: AppBar(
-          leading: IconButton(
-              onPressed: () {
-                Navigator.of(context).pop();
-              },
-              icon: const Icon(
-                Icons.arrow_back,
-                color: Colors.white,
-              )),
-          centerTitle: true,
-          title: const Text(
-            'ADD TODO',
-            style: TextStyle(color: Colors.white, fontWeight: FontWeight.w500),
-          ),
-          backgroundColor:  Colors.blueGrey
-        ),
+            leading: IconButton(
+                onPressed: () {
+                  Navigator.of(context).pop();
+                },
+                icon: const Icon(
+                  Icons.arrow_back,
+                  color: Colors.white,
+                )),
+            centerTitle: true,
+            title: const Text(
+              'ADD TODO',
+              style:
+                  TextStyle(color: Colors.white, fontWeight: FontWeight.w500),
+            ),
+            backgroundColor: Colors.blueGrey),
         body: SafeArea(
           child: Padding(
             padding: const EdgeInsets.all(15),

@@ -74,6 +74,7 @@ class TodoList extends StatelessWidget {
                 return getdata();
               })),
       floatingActionButton: FloatingActionButton.extended(
+        backgroundColor: Colors.blueGrey,
           onPressed: () {
             Navigator.of(context).push(MaterialPageRoute(builder: (ctx) {
               return const AddTodoList();
