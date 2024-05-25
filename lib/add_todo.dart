@@ -29,7 +29,7 @@ class _AddTodoListState extends State<AddTodoList> {
             'ADD TODO',
             style: TextStyle(color: Colors.white, fontWeight: FontWeight.w500),
           ),
-          backgroundColor: const Color.fromARGB(255, 35, 37, 49),
+          backgroundColor:  Colors.blueGrey
         ),
         body: SafeArea(
           child: Padding(

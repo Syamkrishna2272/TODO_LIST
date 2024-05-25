@@ -27,7 +27,7 @@ submitdata(titlecontroller, descriptioncontroller, context) async {
     Navigator.of(context).pop();
     snackbarmessage('Added', context);
   } else {
-    snackbarmessage('Failed to Delete', context);
+    snackbarmessage('Failed to Add', context);
   }
 }
 

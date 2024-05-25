@@ -16,7 +16,7 @@ class TodoList extends StatelessWidget {
           'TODO LIST',
           style: TextStyle(color: Colors.white, fontWeight: FontWeight.w800),
         ),
-        backgroundColor: Colors.grey,
+        backgroundColor: Colors.blueGrey,
       ),
       body: SafeArea(
           child: RefreshIndicator(
